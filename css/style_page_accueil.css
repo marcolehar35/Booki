@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+h1 {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+    color: black;
+};
+
+.icons{
+    color: #0065FC;
+};
