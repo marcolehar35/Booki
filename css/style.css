@@ -1,13 +1,92 @@
+/* mini-reset */
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+#container-logo-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 126px;
+}
+header img{
+    margin-top: 44px;
+    margin-left: 55px;
+    height: 19px;
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+
+}
+
+    
+
+nav ul li {
+    
+    padding: 2px;
+    size: 16px;
+    padding-top: 48px;
+    border-top: solid 2px;
+    border-color: rgba(255, 255, 255, 0);
+    width: 162px;
+    text-align: center;
+
+}
+
+nav ul li a {
+ 
+    text-decoration: none ;
+    color:  black;
+    
+}
+nav ul li:hover {
+
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+}
+
+nav ul li a:hover {
+
+    color: #0065FC;
+    
+}
+
+/* selected link */
+nav ul li a:active {
+    color:  #0065FC;
+    }
+
+
 h1 {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 26px;
-    color: black;
-};
+color: black;
+padding:  0px 0px 8px 55px;
+}
+
+#subhead {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-bottom: 20px;
+margin-left: 55px;
+padding-bottom: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
 
 .icons{
     color: #0065FC;
-};
+}
