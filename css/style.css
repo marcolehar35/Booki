@@ -80,10 +80,6 @@ header {
     margin-bottom: 20px;
 }
 
-.icons{
-    font-family: 'Raleway', sans-serif;
-    color: #0065FC;
-}
 
 /* search */
 
@@ -158,8 +154,62 @@ text-align: center;
     cursor: pointer;
 }
 
+/* filtre */
 #container-filtre{
 
     margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
+}
+#container-filtre h2{
+    margin-right: 32px;
+}
+
+#container-filtre button {
+    margin-right: 36px;
+    padding: 14px 20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    background:  rgba(255, 255, 255, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+
+}
+
+#container-filtre button:hover {
+    cursor: pointer;
+    background: #DEEBFF;
+}
+
+.icons{
+    color: #0065FC;
+    margin-right: 10px;
+}
+
+.fa-info{
+    color: #0065FC;
+    width: 24px;
+    height: 24px;
+    border: 1px;
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+   padding-top: 9px;
+}
+
+#container-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  padding-left: 55px;
+    margin-top: 40px;
+    margin-bottom: 39px;
+}
+
+#container-info p{
+    margin-left: 10px;
 }
