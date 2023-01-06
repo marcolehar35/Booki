@@ -58,7 +58,7 @@ nav ul li a:active {
 	color:  #0065FC;
 }
 
-h1 {
+h1 {cd 
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
@@ -158,7 +158,7 @@ form input::placeholder{
 	padding-left: 55px;
 }
 
-#container-filtre span{
+#filtre{
 	margin-right: 32px;
 	font-weight: 700;
 }
