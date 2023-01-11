@@ -247,7 +247,7 @@ border-color: #FFFF;
 .rectangle {
 	background: #F2F2F2;
 border-radius: 20px;
-width: 893px;
+width: 59%;
 border: #F2F2F2 5px;
 margin-left: 20px;
 padding: 40px 10px 39px 40px;
@@ -283,7 +283,7 @@ text-decoration: none;
 /* card plus populaires */
 
 aside{
-	width: 420px;
+	width: 28%;
 	height: 625px;
 	padding: 41px 40px 34px 37px;
 	background-color: #F2F2F2;
@@ -335,4 +335,9 @@ justify-content: space-around;
 
 .fa-solid{
 	color: #0065FC;
+}
+
+#container-cards-principals {
+	display: flex;
+	justify-content: space-around;
 }
