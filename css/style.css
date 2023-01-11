@@ -279,3 +279,60 @@ line-height: 21px;
 color: black;
 text-decoration: none;
 }
+
+/* card plus populaires */
+
+aside{
+	width: 420px;
+	height: 625px;
+	padding: 41px 40px 34px 37px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+#container-plus-populaires-h2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#container-plus-populaires-card{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+#container-plus-populaires-card article{
+	box-sizing: content-box;
+	width: 343px;
+	height: 144px;
+	border-radius: 20px;
+	padding: 3px;
+	display: flex;
+	flex-direction: row;
+	background-color: #FFFF;
+	margin-top: 30px;
+}
+#container-plus-populaires-card article img {
+	object-fit: cover;
+	width: 137px;
+    height: 144px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #FFFF;
+}
+
+#container-description-stars {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#container-description-stars  .description {
+	padding: 16px 22px 12px 15px;
+}
+
+.fa-solid{
+	color: #0065FC;
+}
