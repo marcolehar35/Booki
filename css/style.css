@@ -333,11 +333,44 @@ justify-content: space-around;
 	padding: 16px 22px 12px 15px;
 }
 
+.description span{
+	font-weight: 600;
+}
+
 .fa-solid{
 	color: #0065FC;
 }
 
 #container-cards-principals {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
+}
+
+/* card activites */
+
+#container-activites{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#container-activites article {
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	height: 445px;
+	width: 302px;
+	border-radius: 20px;
+	
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+}
+
+#container-activites article img {
+	object-fit: cover;
+	height: 389px;
+	width: 302px;
+	border-radius: 20px;
+
 }
