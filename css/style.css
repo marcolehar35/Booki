@@ -361,10 +361,9 @@ justify-content: space-around;
 	height: 445px;
 	width: 302px;
 	border-radius: 20px;
-	
-background: #FFFFFF;
-display: flex;
-flex-direction: column;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
 }
 
 #container-activites article img {
@@ -372,5 +371,4 @@ flex-direction: column;
 	height: 389px;
 	width: 302px;
 	border-radius: 20px;
-
 }
