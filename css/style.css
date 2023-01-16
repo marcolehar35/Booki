@@ -12,7 +12,7 @@ h1,h2,h3,h4{
 }
 
 body{
-	padding: 0px 50px 50px 50px;
+	padding: 0px 50px 0px 50px;
 }
 
 /* header */
@@ -354,7 +354,7 @@ justify-content: space-between;
 
 #section-activites {
 	padding-bottom: 60px;
-	}
+}
 
 #section-activites h2{
 margin-bottom: 18px;
@@ -384,6 +384,22 @@ margin-bottom: 18px;
 }
 
 #container-activites article h3{
-
 	margin: auto;
+}
+
+/* footer */
+
+footer {
+	padding: 45px;
+	background: #F2F2F2;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer h4 {
+	padding-bottom: 20px;
+}
+
+footer li{
+	padding-bottom: 12px;
 }
