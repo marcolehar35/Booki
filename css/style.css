@@ -204,16 +204,31 @@ form input::placeholder{
 	margin-left: 10px;
 }
 
-/* card hébergement */
+
+/* card total */
+
 .card {
 	box-sizing: content-box;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	border-radius: 20px;
+	background-color: #FFFF;
+	padding: 3px;
+}
+
+/* card hotel */
+
+#container-card{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+
+#container-card .card{
 	width: 29%;
 	margin-right: 25px;
 	margin-bottom: 25px;
-	background-color: #FFFF;
-	padding: 3px;
+
 }
 
 .card img {
@@ -251,13 +266,6 @@ padding: 40px 10px 39px 40px;
 
 }
 
-#container-card{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-bottom: 15px;
-}
-
 .stars{
 	padding-left: 14px;
 }
@@ -274,7 +282,7 @@ color: black;
 text-decoration: none;
 }
 
-/* card plus populaires */
+/* card most popular */
 
 aside{
 	width: 28%;
@@ -299,12 +307,13 @@ justify-content: space-between;
 
 #container-plus-populaires-card article{
 	box-sizing: content-box;
-	border-radius: 20px;
-	padding: 3px;
 	display: flex;
 	flex-direction: row;
-	background-color: #FFFF;
 	margin-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 20px;
+	background-color: #FFFF;
+	padding: 3px;
 }
 #container-plus-populaires-card article img {
 	object-fit: cover;
@@ -354,10 +363,9 @@ justify-content: space-between;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	width: 302px;
 	border-radius: 20px;
-	
-background: #FFFFFF;
-display: flex;
-flex-direction: column;
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
 }
 
 #container-activites article img {
