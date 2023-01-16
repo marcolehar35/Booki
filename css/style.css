@@ -352,10 +352,18 @@ justify-content: space-between;
 
 /* card activites */
 
+#section-activites {
+	padding-bottom: 60px;
+	}
+
+#section-activites h2{
+margin-bottom: 18px;
+}
+
 #container-activites{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 #container-activites article {
@@ -371,7 +379,7 @@ justify-content: space-between;
 #container-activites article img {
 	object-fit: cover;
 	height: 90%;
-	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
 
 }
 
