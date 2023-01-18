@@ -36,7 +36,6 @@ nav ul {
 
 nav ul li {
 	padding: 2px;
-	size: 16px;
 	padding-top: 48px;
 	border-top: solid 2px;
 	border-color: rgba(255, 255, 255, 0);
@@ -324,14 +323,14 @@ justify-content: space-between;
     border-color: #FFFF;
 }
 
-#container-description-stars {
+.container-description-stars {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	box-sizing: content-box;
 }
 
-#container-description-stars  .description {
+.container-description-stars  .description {
 	padding: 16px 22px 12px 15px;
 }
 
@@ -400,6 +399,12 @@ footer h4 {
 	padding-bottom: 20px;
 }
 
-footer li{
+footer li  {
 	padding-bottom: 12px;
 }
+
+footer li a{
+	text-decoration: none ;
+	color:  black;
+}
+
