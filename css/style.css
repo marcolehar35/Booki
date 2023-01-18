@@ -408,3 +408,30 @@ footer li a{
 	color:  black;
 }
 
+/* Media query mobile */
+
+@media all and (max-width: 375px){
+	header #container-logo-nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul li {
+		padding-bottom: 20px;
+		border-bottom: solid 2px grey;
+		text-align: center;
+	}
+	
+
+	nav ul li:hover {
+		border-bottom: solid 2px #0065FC;
+		border-top: solid 2px  rgba(255, 255, 255, 0);
+	}
+
+	header h1{
+		margin-top: 20px;
+	}
+
+}
