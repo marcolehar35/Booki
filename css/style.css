@@ -235,10 +235,14 @@ form input::placeholder{
 	justify-content: space-between;
 }
 
-#container-card .card{
+#container-card  a{
+	display: block;
 	width: 29%;
 	margin-bottom: 25px;
+	text-decoration: none;
 }
+
+
 
 .card img {
 	object-fit: cover;
@@ -304,10 +308,14 @@ aside{
 	flex-direction: column;
 	justify-content: space-between;
 }
-#container-plus-populaires-card .card {
+#container-plus-populaires-card .card{
 	flex-direction: row;
 	margin-top: 30px;
 }
+#container-plus-populaires-card a{
+	text-decoration: none;
+}
+
 #container-plus-populaires-card .card img {
 	object-fit: cover;
 	max-height: 144px;
@@ -361,17 +369,18 @@ margin-bottom: 18px;
 	justify-content: space-between;
 }
 
-#container-activites .card {
+#container-activites .card{
 	width: 23%;
 	padding:0;
 }
-#container-activites .card img {
+
+#container-activites .card img{
 	object-fit: cover;
 	height: 90%;
 	border-radius: 20px 20px 0px 0px;
 }
-#container-activites .card h3 {
-	margin: auto;
+#container-activites .card h3{
+	text-align: center;
 }
 
 /* footer */
