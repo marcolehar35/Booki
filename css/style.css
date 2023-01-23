@@ -269,9 +269,6 @@ form input::placeholder{
 
 }
 
-.stars{
-
-}
 .fa-star{
 	padding-left: 2px;
 	color: #0065FC;
@@ -318,6 +315,20 @@ aside{
 	border-radius: 20px 0px 0px 20px;
 	border-color: #fff;
 }
+
+#container-plus-populaires-card .card-body{
+	padding: 13px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+#container-plus-populaires-card .card-body h3{
+	padding-bottom: 7px;
+
+}
+
 
 .card .currency{
 	font-weight: 600;
@@ -390,7 +401,7 @@ footer li a{
 }
 
 
-
+/* Media query */
 
 /* Desktop */
 @media all and (min-width:992px) {
@@ -406,16 +417,41 @@ footer li a{
 	}
 }
 
-/* Telephone */
+/* mobile */
 @media all and (max-width:767px) {
 	header {
-		background: green;
+		background: yellow;
+	}
+
+
+
+	header #container-logo-nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul li {
+		padding-bottom: 20px;
+		border-bottom: solid 2px grey;
+		text-align: center;
+	}
+	
+
+	nav ul li:hover {
+		border-bottom: solid 2px #0065FC;
+		border-top: solid 2px  rgba(255, 255, 255, 0);
+	}
+
+	header h1{
+		margin-top: 20px;
 	}
 }
 
 
 
-/* Media query mobile */
+/* Media query  */
 
 @media all and (max-width: 375px){
 
