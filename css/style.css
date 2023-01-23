@@ -413,6 +413,14 @@ footer li a{
 /* Media query */
 
 /* Desktop */
+
+@media all and (min-width:1400px) {
+	body{
+		width: 1400px;
+		margin: auto;
+	}
+}
+
 @media all and (min-width:992px) {
 	header {
 		background: blue;
@@ -428,11 +436,6 @@ footer li a{
 
 /* mobile */
 @media all and (max-width:767px) {
-	header {
-		background: yellow;
-	}
-
-
 
 	header #container-logo-nav{
 		display: flex;
