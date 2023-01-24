@@ -235,7 +235,7 @@ form input::placeholder{
 }
 
 .card-body {
-	padding: 13px;
+	padding: 10px;
 }
 
 /* card hotel */
@@ -339,7 +339,6 @@ aside{
 }
 
 #container-plus-populaires-card .card-body{
-	padding: 13px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -394,6 +393,9 @@ margin-bottom: 18px;
 	border-radius: 20px 20px 0px 0px;
 }
 
+#container-activites .card .card-body{
+	margin: auto;
+}
 /* footer */
 
 footer {
@@ -456,6 +458,10 @@ footer li a{
 		margin-top: 30px;
 	}
 
+	#section-activites h2{
+		margin-bottom: 30px;
+		}
+
 	#container-plus-populaires-card{
 		display: flex;
 		flex-direction: row;
@@ -465,7 +471,11 @@ footer li a{
 	#container-plus-populaires-card .card{
 		width: 90%;
 	}
-	
+
+	#container-activites .card img{
+	height: 80%;
+}
+
 }
 
 /* mobile */
