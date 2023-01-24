@@ -32,6 +32,10 @@ header, main, footer {
 	margin: 0 auto;
 }
 
+.fa-solid{
+	color: #0065FC;
+}
+
 /* header */
 #container-logo-nav {
 	display: flex;
@@ -117,6 +121,10 @@ header {
 	width: 14px;
 }
 
+.fa-location-dot{
+	color: black;
+}
+
 #container-recherche{
 	display: flex;
 	flex-direction: row;
@@ -177,7 +185,7 @@ form input::placeholder{
 	font-size: 18px;
 }
 
-#container-filtre button {
+#container-filtre button{
 	margin-right: 30px;
 	padding: 14px 20px;
 	border: 2px solid #D9D9D9;
@@ -194,12 +202,10 @@ form input::placeholder{
 }
 
 .icons{
-	color: #0065FC;
 	margin-right: 10px;
 }
 
 .fa-info{
-	color: #0065FC;
 	width: 24px;
 	height: 24px;
 	border: 1px;
@@ -224,7 +230,7 @@ form input::placeholder{
 
 /* card total */
 
-.card {
+.card{
 	background-color: #fff;
 	border-radius: 20px;
 	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -238,9 +244,9 @@ form input::placeholder{
 	padding: 10px;
 }
 
-/* card hotel */
+/*card hotel*/
 
-#container-card {
+#container-card{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -257,7 +263,7 @@ form input::placeholder{
 
 
 
-.card img {
+.card img{
 	object-fit: cover;
 	height: 124px;
 	border-radius: 20px 20px 0px 0px;
@@ -273,7 +279,7 @@ form input::placeholder{
 	font-weight: 600;
 }
 
-.rectangle {
+.rectangle{
 	background: #F2F2F2;
 	border-radius: 20px;
 	width: 65%;
@@ -281,13 +287,12 @@ form input::placeholder{
 	padding: 40px;
 }
 
-.rectangle h2 {
+.rectangle h2{
 	padding-bottom: 23px;
 }
 
 .fa-star{
 	padding-left: 2px;
-	color: #0065FC;
 }
 
 #affichez-plus{
@@ -330,7 +335,7 @@ aside{
 	text-decoration: none;
 }
 
-#container-plus-populaires-card .card img {
+#container-plus-populaires-card .card img{
 	object-fit: cover;
 	max-height: 144px;
 	width: 40%;
@@ -353,10 +358,6 @@ aside{
 
 .card .currency{
 	font-weight: 600;
-}
-
-.fa-solid{
-	color: #0065FC;
 }
 
 #container-cards-principals {
@@ -398,22 +399,22 @@ margin-bottom: 18px;
 }
 /* footer */
 
-footer {
+footer{
 	padding: 45px;
 	background: #F2F2F2;
 	display: flex;
 	justify-content: space-between;
 }
 
-footer div {
+footer div{
 	width: 31%;
 }
 
-footer h4 {
+footer h4{
 	padding-bottom: 20px;
 }
 
-footer li  {
+footer li{
 	padding-bottom: 12px;
 }
 
@@ -435,15 +436,13 @@ footer li a{
 }
 
 @media all and (min-width:992px) {
-	header {
-		background: blue;
-	}
+
 }
 
 /* Tablet */
 @media all and (min-width:768px) and (max-width:991px) {
 	
-	#container-cards-principals {
+	#container-cards-principals{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -460,7 +459,7 @@ footer li a{
 
 	#section-activites h2{
 		margin-bottom: 30px;
-		}
+	}
 
 	#container-plus-populaires-card{
 		display: flex;
@@ -474,7 +473,7 @@ footer li a{
 
 	#container-activites .card img{
 	height: 80%;
-}
+	}
 
 }
 
@@ -488,19 +487,71 @@ footer li a{
 		align-items: center;
 	}
 
-	nav ul li {
+	nav ul li{
 		padding-bottom: 20px;
 		border-bottom: solid 2px grey;
 		text-align: center;
 	}
 	
 
-	nav ul li:hover {
+	nav ul li:hover{
 		border-bottom: solid 2px #0065FC;
 		border-top: solid 2px  rgba(255, 255, 255, 0);
 	}
 
 	header h1{
+		margin-top: 30px;
+	}
+
+	#container-filtre{
+		display: flex;
+		flex-direction: column;
+	}
+	#filtre{
+		display: block;
+	}
+	#container-filtre button{
+		margin-right: 10px;
 		margin-top: 20px;
 	}
+
+	#container-cards-principals{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+	.rectangle{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	aside{
+		width: 100%;
+	
+	}
+
+	#container-card{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	#container-card  a{
+		display: block;
+		width: 100%;
+		margin-bottom: 25px;
+		text-decoration: none;
+	}
+	#container-activites{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	#container-activites .card{
+		width: 100%;
+		padding:0;
+		margin: 10px 0px;
+		}
 }
