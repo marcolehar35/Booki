@@ -68,6 +68,7 @@ nav ul li a {
 	text-decoration: none ;
 	color:  black;
 }
+
 nav ul li:hover {
 	border-top: solid 2px #0065FC;
 	color: #0065FC;
@@ -130,6 +131,13 @@ header {
 	flex-direction: row;
 	align-content: center;
 	align-items: center;
+}
+
+.fa-magnifying-glass{
+	display: none;
+	color: white;
+	width: 17px;
+	height: ;
 }
 
 form input {
@@ -230,6 +238,10 @@ form input::placeholder{
 
 /* card total */
 
+article {
+	width: 29%;
+}
+
 .card{
 	background-color: #fff;
 	border-radius: 20px;
@@ -238,6 +250,9 @@ form input::placeholder{
 	display: flex;
 	flex-direction: column;
 	padding: 3px;
+	text-decoration: none;
+	margin-bottom: 25px;
+	color:#000000;
 }
 
 .card-body {
@@ -254,20 +269,13 @@ form input::placeholder{
 	justify-content: space-between;
 }
 
-#container-card  a{
-	display: block;
-	width: 29%;
-	margin-bottom: 25px;
-	text-decoration: none;
-}
-
-
-
 .card img{
 	object-fit: cover;
 	height: 124px;
 	border-radius: 20px 20px 0px 0px;
 	border-color: #fff;
+	max-width: 100%;
+	width: 100%;
 }
 
 .card p{
@@ -296,22 +304,26 @@ form input::placeholder{
 }
 
 #affichez-plus{
-font-size: 18px;
-font-weight: 700;
-line-height: 21px;
-color: black;
-text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	color: black;
+	text-decoration: none;
 }
 
 /* card most popular */
 
 aside{
-	width: 28%;
+	width: 31%;
 	padding: 41px 40px 34px 37px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+aside article{
+	width:100%;
 }
 
 #container-plus-populaires-h2{
@@ -328,7 +340,7 @@ aside{
 
 #container-plus-populaires-card .card{
 	flex-direction: row;
-	margin-top: 30px;
+	margin: 30px 0 0;
 }
 
 #container-plus-populaires-card a{
@@ -354,7 +366,6 @@ aside{
 	padding-bottom: 7px;
 
 }
-
 
 .card .currency{
 	font-weight: 600;
@@ -383,11 +394,19 @@ margin-bottom: 18px;
 	justify-content: space-between;
 }
 
-#container-activites .card{
+#container-activites article {
 	width: 23%;
+}
+
+#container-activites article .card {
+	display:block;
+	height: 90%;
 	padding:0;
 }
 
+#container-activites .card h3{
+	padding:0 9px;
+}
 #container-activites .card img{
 	object-fit: cover;
 	height: 90%;
@@ -397,6 +416,7 @@ margin-bottom: 18px;
 #container-activites .card .card-body{
 	margin: auto;
 }
+
 /* footer */
 
 footer{
@@ -441,7 +461,7 @@ footer li a{
 
 /* Tablet */
 @media all and (min-width:768px) and (max-width:991px) {
-	
+
 	#container-cards-principals{
 		display: flex;
 		flex-direction: column;
@@ -467,12 +487,12 @@ footer li a{
 		justify-content: space-between;
 	}
 
-	#container-plus-populaires-card .card{
-		width: 90%;
+	aside article {
+    width: 31%;
 	}
 
 	#container-activites .card img{
-	height: 80%;
+		height: 80%;
 	}
 
 }
@@ -503,6 +523,28 @@ footer li a{
 		margin-top: 30px;
 	}
 
+	#rechercher{
+		height: 49px;
+		width: 49px;
+	}
+	#rechercher span{
+		display: none;
+	}
+	.fa-magnifying-glass {
+		display: block;
+	}
+
+	#container-filtre button{
+		margin-right: 30px;
+		padding: 14px 20px;
+		border: 2px solid #D9D9D9;
+		border-radius: 25px;
+		background:  rgba(255, 255, 255, 0);
+		font-weight: 700;
+		font-size: 17px;
+		line-height: 20px;
+	}
+	
 	#container-filtre{
 		display: flex;
 		flex-direction: column;
@@ -513,45 +555,76 @@ footer li a{
 	#container-filtre button{
 		margin-right: 10px;
 		margin-top: 20px;
-	}
-
-	#container-cards-principals{
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: space-between;
-	}
-	.rectangle{
-		width: 100%;
-		margin-top: 30px;
-	}
-
-	aside{
-		width: 100%;
-	
-	}
-
-	#container-card{
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-		justify-content: space-between;
-	}
-
-	#container-card  a{
-		display: block;
-		width: 100%;
-		margin-bottom: 25px;
-		text-decoration: none;
-	}
-	#container-activites{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-	
-	#container-activites .card{
-		width: 100%;
-		padding:0;
-		margin: 10px 0px;
+			font-size: 11px;
+			width: 45%;
 		}
-}
+		
+		#container-cards-principals{
+			display: flex;
+			flex-direction: column-reverse;
+			justify-content: space-between;
+		}
+		.rectangle{
+			width: 100%;
+			margin-top: 30px;
+		}
+	
+		aside{
+			width: 100%;
+		}
+	
+		#container-card{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+		}
+
+		article{
+			width: 100%;
+		}
+	
+		#container-card  a{
+			display: block;
+			width: 100%;
+			margin-bottom: 25px;
+			text-decoration: none;
+		}
+		#container-activites{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	
+		#container-activites .card{
+			width: 100%;
+			padding:0;
+			margin: 10px 0px;
+		}
+
+		#container-activites article{
+			width: 100%;
+		}
+
+		#container-activites .card img{
+			object-fit: cover;
+			height: 134px;
+			border-radius: 20px 20px 0px 0px;
+		}
+
+		footer{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		footer div{
+			width: 100%;
+			margin-bottom: 40px;
+
+			
+		}
+		
+	}
+
+	
