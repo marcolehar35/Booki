@@ -552,78 +552,78 @@ footer li a{
 	#filtre{
 		display: block;
 	}
+
 	#container-filtre button{
 		margin-right: 10px;
 		margin-top: 20px;
 			font-size: 11px;
 			width: 45%;
-		}
-		
-		#container-cards-principals{
+	}	
+	#container-cards-principals{
 			display: flex;
 			flex-direction: column-reverse;
 			justify-content: space-between;
-		}
-		.rectangle{
+	}
+	.rectangle{
 			width: 100%;
 			margin-top: 30px;
-		}
+	}
 	
-		aside{
+	aside{
 			width: 100%;
-		}
+	}
 	
-		#container-card{
+	#container-card{
 			display: flex;
 			flex-direction: column;
 			flex-wrap: nowrap;
 			justify-content: space-between;
-		}
+	}
 
-		article{
+	article{
 			width: 100%;
-		}
+	}
 	
-		#container-card  a{
+	#container-card  a{
 			display: block;
 			width: 100%;
 			margin-bottom: 25px;
 			text-decoration: none;
-		}
-		#container-activites{
+	}
+	#container-activites{
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-		}
+	}
 	
-		#container-activites .card{
+	#container-activites .card{
 			width: 100%;
 			padding:0;
 			margin: 10px 0px;
-		}
+	}
 
-		#container-activites article{
+	#container-activites article{
 			width: 100%;
-		}
+	}
 
-		#container-activites .card img{
+	#container-activites .card img{
 			object-fit: cover;
 			height: 134px;
 			border-radius: 20px 20px 0px 0px;
-		}
+	}
 
-		footer{
+	footer{
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-		}
+	}
 
-		footer div{
+	footer div{
 			width: 100%;
 			margin-bottom: 40px;
 
 			
-		}
+	}
 		
 	}
 
